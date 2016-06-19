@@ -1,7 +1,7 @@
 #ifndef LIGHT_H
 #define LIGHT_H
 
-#include <AbstractBehaviour.hpp>
+#include "mge/behaviours/AbstractBehaviour.hpp"
 #include <glm.hpp>
 
 class Light : public AbstractBehaviour

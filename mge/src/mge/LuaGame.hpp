@@ -2,16 +2,16 @@
 #define LUAGAME_H
 
 #include <lua.hpp>
-#include <FileWatcher/FileWatcher.h>
-#include <AbstractGame.hpp>
+#include "FileWatcher.h"
+#include "mge/core/AbstractGame.hpp"
 
 #include "mge/core/BaseHud.hpp"
 #include "mge/LuaBridge/LuaBridge.h"
 #include "mge/sphinx/StoryWall.hpp"
 #include "mge/sphinx/PuzzleBlock.hpp"
-#include "ParticleSystem.hpp"
-#include "Light.hpp"
-#include "MainLight.hpp"
+//#include "mge/core/ParticleSystem.hpp"
+#include "mge/behaviours/Light.hpp"
+#include "mge/sphinx/MainLight.hpp"
 
 extern "C" {
 # include "lua.h"
@@ -51,7 +51,7 @@ class LuaGame : public AbstractGame
         BaseHud* _hud;
         StoryWall* _storyWall;
         FW::FileWatcher _fileWatcher;
-        ParticleSystem* _particleSystem;
+//        ParticleSystem* _particleSystem;
 };
 
 #endif // LUAGAME_H

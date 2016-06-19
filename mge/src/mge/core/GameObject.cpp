@@ -164,11 +164,11 @@ void GameObject::WriteLogFile(const char* szString)
 {
     std::cout << "writing to log file.." << std::endl;
 
-    glm::vec3 pos = getWorldPosition();
-    std::string s = getName() + " position: "
-        + std::to_string(pos[0])
-        + ", " + std::to_string(pos[1])
-        + ", " + std::to_string(pos[2]);
+//    glm::vec3 pos = getWorldPosition();
+//    std::string s = getName() + " position: "
+//        + std::to_string(pos[0])
+//        + ", " + std::to_string(pos[1])
+//        + ", " + std::to_string(pos[2]);
 
 //    glm::mat4 matrix = getTransform();
 
@@ -193,13 +193,13 @@ void GameObject::WriteLogFile(const char* szString)
 //            + ", " + std::to_string(_transform[2][3])
 //            + ", " + std::to_string(_transform[3][3]) + "\n";
 
-    const char* c = s.c_str();
-
-    FILE* pFile = fopen("logFile.txt", "a");
-    fprintf(pFile, "%s\n", c);
-    fclose(pFile);
-
-    std::cout << "write completed." << std::endl;
+//    const char* c = s.c_str();
+//
+//    FILE* pFile = fopen("logFile.txt", "a");
+//    fprintf(pFile, "%s\n", c);
+//    fclose(pFile);
+//
+//    std::cout << "write completed." << std::endl;
 }
 
 //new multiple behaviours

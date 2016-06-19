@@ -9,7 +9,7 @@ class Camera;
 #include "mge/behaviours/MeshRenderer.hpp"
 #include "mge/core/ShaderProgram.hpp"
 #include "mge/core/RenderPipeline.hpp"
-#include "ParticleSystem.hpp"
+//#include "mge/behaviours/ParticleSystem.hpp"
 
 class RenderPipeline
 {
@@ -42,7 +42,7 @@ class RenderPipeline
 
         // particle system
         GameObject* _particlesGameObject;
-        ParticleSystem* _particleSystem;
+//        ParticleSystem* _particleSystem;
 };
 
 #endif // RENDERPIPELINE_H

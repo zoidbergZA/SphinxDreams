@@ -8,7 +8,7 @@
 #include <iostream>
 #include <sstream>
 #include <ostream>
-#include "BaseLight.h"
+//#include "BaseLight.h"
 
 #define MAX_LIGHTS_NUM 5
 /**

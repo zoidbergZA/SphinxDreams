@@ -1,7 +1,7 @@
 #ifndef STORYWALL_H
 #define STORYWALL_H
 
-#include <GameObject.hpp>
+#include "mge/core/GameObject.hpp"
 
 #include "mge/materials/AbstractMaterial.hpp"
 #include "mge/materials/LitTextureMaterial.hpp"

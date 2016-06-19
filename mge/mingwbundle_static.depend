@@ -1206,3 +1206,561 @@
 	"mge/util/DebugHud.hpp"
 	"mge/config.hpp"
 
+1458214460 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\main.cpp
+	<iostream>
+	"mge/core/AbstractGame.hpp"
+	"mge/MGEDemo.hpp"
+	"mge/core/SphinxDreams.h"
+	"mge/MGEDemo.hpp"
+	"mge/MGEPaul.h"
+	"mge/MGEMartijn.h"
+	"mge/LuaGame.hpp"
+
+1460227180 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\abstractgame.hpp
+	<SFML/Graphics.hpp>
+	<GL/glew.h>
+	<string>
+	"mge/core/World.hpp"
+	"mge/core/RenderPipeline.hpp"
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\world.hpp
+	<vector>
+	"mge/core/GameObject.hpp"
+
+1458218772 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\gameobject.hpp
+	<vector>
+	<string>
+	<iostream>
+	<glm.hpp>
+	<unordered_map>
+	<typeindex>
+	<memory>
+
+1458214460 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1466290206 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\renderpipeline.hpp
+	"mge/materials/DepthMapper.hpp"
+	"mge/behaviours/MeshRenderer.hpp"
+	"mge/core/ShaderProgram.hpp"
+	"mge/core/RenderPipeline.hpp"
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\materials\depthmapper.hpp
+	"mge/materials/AbstractMaterial.hpp"
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\materials\abstractmaterial.hpp
+	"mge/core/ShaderProgram.hpp"
+	"mge/core/Mesh.hpp"
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\shaderprogram.hpp
+	<vector>
+	<string>
+	<GL/glew.h>
+
+1458234766 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\mesh.hpp
+	<vector>
+	<cstring>
+	<string>
+	<GL/glew.h>
+	<glm.hpp>
+	"mge/core/World.hpp"
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\behaviours\meshrenderer.hpp
+	"mge/materials/AbstractMaterial.hpp"
+	"mge/behaviours/AbstractBehaviour.hpp"
+	"mge/core/World.hpp"
+	"mge/core/RenderPipeline.hpp"
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\behaviours\abstractbehaviour.hpp
+	<memory>
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\mgedemo.hpp
+	<mge/core/AbstractGame.hpp>
+	<SFML/Graphics.hpp>
+	<vector>
+	<string>
+	<lua.hpp>
+	"mge/core/ModelViewer.hpp"
+	"mge/lua/LuaManager.hpp"
+	"mge/core/BaseHud.hpp"
+	"mge/core/Mesh.hpp"
+	"mge/core/World.hpp"
+	"mge/core/FPS.hpp"
+	"mge/core/Camera.hpp"
+	"mge/core/GameObject.hpp"
+	"mge/materials/AbstractMaterial.hpp"
+	"mge/materials/ColorMaterial.hpp"
+	"mge/materials/TextureMaterial.hpp"
+	"mge/behaviours/RotatingBehaviour.hpp"
+	"mge/behaviours/KeysBehaviour.hpp"
+	"mge/behaviours/LookAt.hpp"
+	"mge/util/DebugHud.hpp"
+	"mge/config.hpp"
+	"mge/MGEDemo.hpp"
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\modelviewer.hpp
+	<iostream>
+	<windows.h>
+	"mge/core/GameObject.hpp"
+	"mge/core/Camera.hpp"
+	"mge/core/World.hpp"
+	"mge/core/Texture.hpp"
+	"mge/behaviours/MeshRenderer.hpp"
+	"mge/behaviours/RotatingBehaviour.hpp"
+	"mge/materials/ColorMaterial.hpp"
+	"mge/materials/TextureMaterial.hpp"
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\camera.hpp
+	<string>
+	"mge/core/GameObject.hpp"
+	"mge/behaviours/AbstractBehaviour.hpp"
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\texture.hpp
+	<map>
+	<string>
+	<GL/glew.h>
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\behaviours\rotatingbehaviour.hpp
+	"mge/behaviours/AbstractBehaviour.hpp"
+
+1458217910 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\materials\colormaterial.hpp
+	"mge/materials/AbstractMaterial.hpp"
+	"mge/core/Mesh.hpp"
+	<glm.hpp>
+
+1458214462 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\materials\texturematerial.hpp
+	"mge/core/Texture.hpp"
+	"mge/core/Mesh.hpp"
+	"mge/materials/AbstractMaterial.hpp"
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\lua\luamanager.hpp
+	<iostream>
+	"mge/core/GameObject.hpp"
+	"mge/behaviours/AbstractBehaviour.hpp"
+	"mge/behaviours/MeshRenderer.hpp"
+	"mge/materials/AbstractMaterial.hpp"
+	"mge/materials/ColorMaterial.hpp"
+	"mge/core/World.hpp"
+
+1458232648 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\basehud.hpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	"mge/core/Timer.hpp"
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\timer.hpp
+	<SFML/System.hpp>
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\fps.hpp
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\behaviours\keysbehaviour.hpp
+	"mge/behaviours/AbstractBehaviour.hpp"
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\behaviours\lookat.hpp
+	<glm.hpp>
+	"mge/behaviours/AbstractBehaviour.hpp"
+
+1458214462 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\util\debughud.hpp
+	<SFML/Graphics.hpp>
+	<iostream>
+
+1458232648 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\config.hpp
+	<string>
+
+1466289434 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\sphinxdreams.h
+	"mge/core/AbstractGame.hpp"
+	"mge/util/DebugHud.hpp"
+	"mge/core/FPS.hpp"
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\mgepaul.h
+	<vector>
+	<string>
+	<lua.hpp>
+	<SFML/Graphics.hpp>
+	<mge/core/AbstractGame.hpp>
+	"mge/behaviours/KeysBehaviour.hpp"
+	"mge/behaviours/LookAt.hpp"
+	"mge/LuaBridge/LuaBridge.h"
+	"mge/core/Mesh.hpp"
+	"mge/core/World.hpp"
+	"mge/core/FPS.hpp"
+	"mge/core/Camera.hpp"
+	"mge/core/BaseLight.h"
+	"mge/core/GameObject.hpp"
+	"mge/materials/AbstractMaterial.hpp"
+	"mge/materials/ColorMaterial.hpp"
+	"mge/materials/TextureMaterial.hpp"
+	"mge/materials/WobblingMaterial.h"
+	"mge/materials/LitColorMaterial.h"
+	"mge/behaviours/RotatingBehaviour.hpp"
+	"mge/behaviours/OrbitBehaviour.hpp"
+	"mge/behaviours/OrbitBehaviourPaul.h"
+	"mge/behaviours/MeshRenderer.hpp"
+	"mge/util/DebugHud.hpp"
+	"mge/config.hpp"
+
+1458214460 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\luabridge\luabridge.h
+	<cassert>
+	<sstream>
+	<stdexcept>
+	<string>
+	<typeinfo>
+	"detail/LuaHelpers.h"
+	"detail/TypeTraits.h"
+	"detail/TypeList.h"
+	"detail/FuncTraits.h"
+	"detail/Constructor.h"
+	"detail/Stack.h"
+	"detail/ClassInfo.h"
+	"detail/LuaException.h"
+	"detail/LuaRef.h"
+	"detail/Iterator.h"
+	"detail/Userdata.h"
+	"detail/CFunctions.h"
+	"detail/Namespace.h"
+
+1458214460 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\luabridge\detail\luahelpers.h
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\luabridge\detail\typetraits.h
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\luabridge\detail\typelist.h
+
+1458214460 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\luabridge\detail\functraits.h
+
+1458214460 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\luabridge\detail\constructor.h
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\luabridge\detail\stack.h
+
+1458214460 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\luabridge\detail\classinfo.h
+
+1458214460 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\luabridge\detail\luaexception.h
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\luabridge\detail\luaref.h
+
+1458214460 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\luabridge\detail\iterator.h
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\luabridge\detail\userdata.h
+
+1458214460 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\luabridge\detail\cfunctions.h
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\luabridge\detail\namespace.h
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\baselight.h
+	<string>
+	"mge/core/GameObject.hpp"
+	"mge/core/World.hpp"
+	"mge/behaviours/AbstractBehaviour.hpp"
+
+1458217910 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\materials\wobblingmaterial.h
+	"mge/materials/AbstractMaterial.hpp"
+	<glm.hpp>
+
+1466289459 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\materials\litcolormaterial.h
+	"mge/materials/AbstractMaterial.hpp"
+	"mge/core/Texture.hpp"
+	"mge/core/Mesh.hpp"
+	<glm.hpp>
+	<iostream>
+	<sstream>
+	<ostream>
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\behaviours\orbitbehaviour.hpp
+	<glm.hpp>
+	"mge/behaviours/AbstractBehaviour.hpp"
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\behaviours\orbitbehaviourpaul.h
+	<glm.hpp>
+	"mge/behaviours/AbstractBehaviour.hpp"
+	"mge/core/AbstractGame.hpp"
+	"mge/core/GameObject.hpp"
+	<GL/glew.h>
+	<SFML/Graphics.hpp>
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\mgemartijn.h
+	<mge/core/AbstractGame.hpp>
+	<SFML/Graphics.hpp>
+	<vector>
+	<string>
+	<lua.hpp>
+	"mge/core/Mesh.hpp"
+	"mge/core/World.hpp"
+	"mge/core/FPS.hpp"
+	"mge/core/Camera.hpp"
+	"mge/core/GameObject.hpp"
+	"mge/materials/AbstractMaterial.hpp"
+	"mge/materials/ColorMaterial.hpp"
+	"mge/materials/TextureMaterial.hpp"
+	"mge/behaviours/RotatingBehaviour.hpp"
+	"mge/behaviours/KeysBehaviour.hpp"
+	"mge/behaviours/LookAt.hpp"
+	"mge/util/DebugHud.hpp"
+	"mge/config.hpp"
+
+1466290213 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\luagame.hpp
+	<lua.hpp>
+	"FileWatcher.h"
+	"mge/core/AbstractGame.hpp"
+	"mge/core/BaseHud.hpp"
+	"mge/LuaBridge/LuaBridge.h"
+	"mge/sphinx/StoryWall.hpp"
+	"mge/sphinx/PuzzleBlock.hpp"
+	"mge/behaviours/Light.hpp"
+	"mge/sphinx/MainLight.hpp"
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1466289819 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\sphinx\storywall.hpp
+	"mge/core/GameObject.hpp"
+	"mge/materials/AbstractMaterial.hpp"
+	"mge/materials/LitTextureMaterial.hpp"
+	"mge/behaviours/MeshRenderer.hpp"
+
+1458217894 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\materials\littexturematerial.hpp
+	"mge/core/Texture.hpp"
+	"mge/core/Mesh.hpp"
+	"mge/materials/AbstractMaterial.hpp"
+
+1466289831 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\sphinx\puzzleblock.hpp
+	"mge/core/GameObject.hpp"
+	"mge/behaviours/MeshRenderer.hpp"
+	"mge/behaviours/RotatingBehaviour.hpp"
+	"mge/behaviours/ColorFlasher.hpp"
+	"mge/materials/TextureMaterial.hpp"
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\behaviours\colorflasher.hpp
+	"mge/behaviours/AbstractBehaviour.hpp"
+	"mge/materials/LitTextureMaterial.hpp"
+
+1458214461 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\behaviours\abstractbehaviour.cpp
+	<cassert>
+	<iostream>
+	"mge/behaviours/AbstractBehaviour.hpp"
+
+1458214461 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\behaviours\keysbehaviour.cpp
+	"mge/behaviours/KeysBehaviour.hpp"
+	"mge/core/GameObject.hpp"
+	<sfml/window/event.hpp>
+
+1458214461 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\behaviours\lookat.cpp
+	<glm.hpp>
+	"mge/behaviours/LookAt.hpp"
+	"mge/core/GameObject.hpp"
+	<iostream>
+
+1458214461 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\behaviours\rotatingbehaviour.cpp
+	"mge/behaviours/RotatingBehaviour.hpp"
+	"mge/core/GameObject.hpp"
+
+1458295321 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\abstractgame.cpp
+	"AbstractGame.hpp"
+	<iostream>
+	<glm.hpp>
+	"mge/core/Input.hpp"
+	"mge/core/Timer.hpp"
+	"mge/core/FPS.hpp"
+	"mge/core/World.hpp"
+	"mge/config.hpp"
+
+1458214461 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\input.hpp
+	"mge/core/AbstractGame.hpp"
+
+1458214461 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\camera.cpp
+	<iostream>
+	<glm.hpp>
+	"mge/core/Camera.hpp"
+	"mge/core/World.hpp"
+
+1458214461 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\fps.cpp
+	<iostream>
+	"mge/core/FPS.hpp"
+	"mge/core/Timer.hpp"
+
+1466290395 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\gameobject.cpp
+	<cassert>
+	<iostream>
+	<stdio.h>
+	<glm.hpp>
+	<string>
+	"mge/core/Timer.hpp"
+	"mge/core/GameObject.hpp"
+	"mge/core/Mesh.hpp"
+	"mge/core/World.hpp"
+	"mge/core/Camera.hpp"
+	"mge/behaviours/RotatingBehaviour.hpp"
+
+1458234766 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\mesh.cpp
+	"mge/core/Mesh.hpp"
+	<iostream>
+	<map>
+	<string>
+	<fstream>
+	"mge/core/World.hpp"
+	"mge/core/Camera.hpp"
+	"glm.hpp"
+
+1458214461 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\shaderprogram.cpp
+	"mge/core/ShaderProgram.hpp"
+	<iostream>
+	<fstream>
+
+1458214461 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\texture.cpp
+	<iostream>
+	<string>
+	<SFML/Graphics.hpp>
+	"mge/core/Texture.hpp"
+
+1458214461 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\timer.cpp
+	"mge/core/Timer.hpp"
+
+1466290424 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\core\world.cpp
+	<cassert>
+	<algorithm>
+	<iostream>
+	"AbstractGame.hpp"
+	"mge/core/World.hpp"
+	"mge/core/Camera.hpp"
+	"mge/core/Mesh.hpp"
+	"mge/core/BaseLight.h"
+	"mge/behaviours/MeshRenderer.hpp"
+
+1458214461 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\materials\abstractmaterial.cpp
+	"mge/materials/AbstractMaterial.hpp"
+
+1458217910 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\materials\colormaterial.cpp
+	<glm.hpp>
+	"mge/materials/ColorMaterial.hpp"
+	"mge/config.hpp"
+	"mge/core/Camera.hpp"
+	"mge/core/Mesh.hpp"
+
+1458217910 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\materials\texturematerial.cpp
+	<glm.hpp>
+	"mge/materials/TextureMaterial.hpp"
+	"mge/core/Texture.hpp"
+	"mge/core/Camera.hpp"
+	"mge/core/Mesh.hpp"
+	"mge/config.hpp"
+
+1458214461 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\mgedemo.cpp
+	<glm.hpp>
+	<iostream>
+	<string>
+	<fstream>
+	<lua.hpp>
+	"mge/MGEDemo.hpp"
+	"mge/behaviours/MeshRenderer.hpp"
+	"mge/behaviours/KeysBehaviour.hpp"
+	"mge/behaviours/RotatingBehaviour.hpp"
+	"mge/behaviours/LookAt.hpp"
+	"mge/LuaBridge/LuaBridge.h"
+	"mge/lua/LuaManager.hpp"
+	"lua.h"
+	"lauxlib.h"
+	"lualib.h"
+
+1458214462 source:c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\util\debughud.cpp
+	<cassert>
+	<iostream>
+	<cstdio>
+	<GL/glew.h>
+	<SFML/Graphics/Text.hpp>
+	"mge/core/FPS.hpp"
+	"mge/util/DebugHud.hpp"
+	"mge/config.hpp"
+
+1458214461 source:c:\users\jorda_000\documents\github\2.3-third-person\mge\src\mge\behaviours\abstractbehaviour.cpp
+	<cassert>
+	<iostream>
+	"mge/behaviours/AbstractBehaviour.hpp"
+
+1466289092 source:c:\users\jorda_000\documents\github\2.3-third-person\mge\src\mge\behaviours\particlesystem.cpp
+	<algorithm>
+	"ParticleSystem.hpp"
+	"mge/core/GameObject.hpp"
+	"mge/config.hpp"
+
+1466289023 c:\users\jorda_000\documents\github\2.3-third-person\mge\src\mge\behaviours\particlesystem.hpp
+	<GL/glew.h>
+	<glm.hpp>
+	"mge/behaviours/AbstractBehaviour.hpp"
+	"mge/core/ShaderProgram.hpp"
+
+1466289738 source:c:\users\jorda_000\documents\github\2.3-third-person\mge\src\mge\filewatcher\filewatcher.cpp
+	"FileWatcher.h"
+	"FileWatcherImpl.h"
+	"FileWatcherWin32.h"
+	<FileWatcher/FileWatcherOSX.h>
+	<FileWatcher/FileWatcherLinux.h>
+
+1458214460 c:\users\jorda_000\documents\github\2.3-third-person\mge\src\mge\filewatcher\filewatcher.h
+	<string>
+	<stdexcept>
+
+1458214460 c:\users\jorda_000\documents\github\2.3-third-person\mge\src\mge\filewatcher\filewatcherimpl.h
+	"FileWatcher.h"
+
+1458214460 c:\users\jorda_000\documents\github\2.3-third-person\mge\src\mge\filewatcher\filewatcherwin32.h
+	"FileWatcherImpl.h"
+	<map>
+
+1466289753 source:c:\users\jorda_000\documents\github\2.3-third-person\mge\src\mge\filewatcher\filewatcherlinux.cpp
+	"FileWatcherLinux.h"
+	<sys/stat.h>
+	<fcntl.h>
+	<string.h>
+	<stdio.h>
+	<errno.h>
+	<sys/inotify.h>
+
+1458214460 c:\users\jorda_000\documents\github\2.3-third-person\mge\src\mge\filewatcher\filewatcherlinux.h
+	"FileWatcherImpl.h"
+	<map>
+	<sys/types.h>
+
+1466289766 source:c:\users\jorda_000\documents\github\2.3-third-person\mge\src\mge\filewatcher\filewatcherosx.cpp
+	"FileWatcherOSX.h"
+	<sys/event.h>
+	<sys/time.h>
+	<sys/stat.h>
+	<unistd.h>
+	<fcntl.h>
+	<stdio.h>
+	<stdlib.h>
+	<dirent.h>
+	<string.h>
+
+1458214460 c:\users\jorda_000\documents\github\2.3-third-person\mge\src\mge\filewatcher\filewatcherosx.h
+	"FileWatcherImpl.h"
+	<map>
+	<sys/types.h>
+
+1466289776 source:c:\users\jorda_000\documents\github\2.3-third-person\mge\src\mge\filewatcher\filewatcherwin32.cpp
+	"FileWatcherWin32.h"
+	<windows.h>
+
+1466290005 source:c:\users\jorda_000\documents\github\2.3-third-person\mge\src\mge\behaviours\light.cpp
+	"Light.hpp"
+	"mge/core/GameObject.hpp"
+
+1466289998 c:\users\jorda_000\documents\github\2.3-third-person\mge\src\mge\behaviours\light.hpp
+	"mge/behaviours/AbstractBehaviour.hpp"
+	<glm.hpp>
+
+1458214462 source:c:\users\jorda_000\documents\github\2.3-third-person\mge\src\mge\sphinx\mainlight.cpp
+	"MainLight.hpp"
+
+1466290175 c:\users\jorda_000\documents\github\2.3-third-person\mge\src\mge\sphinx\mainlight.hpp
+	"mge/core/GameObject.hpp"
+	"mge/behaviours/Light.hpp"
+
+1466290020 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\behaviours\light.hpp
+	"mge/behaviours/AbstractBehaviour.hpp"
+	<glm.hpp>
+
+1466290197 c:\users\jorda_000\documents\github\sphinxdreams\mge\src\mge\sphinx\mainlight.hpp
+	"mge/core/GameObject.hpp"
+	"mge/behaviours/Light.hpp"
+

@@ -7,7 +7,7 @@
 #include "mge/core/Camera.hpp"
 #include "mge/core/Mesh.hpp"
 #include "mge/core/BaseLight.h"
-#include "MeshRenderer.hpp"
+#include "mge/behaviours/MeshRenderer.hpp"
 
 using namespace std;
 

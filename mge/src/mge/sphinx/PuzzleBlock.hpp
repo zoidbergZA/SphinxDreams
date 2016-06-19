@@ -1,7 +1,7 @@
 #ifndef PUZZLEBLOCK_HPP
 #define PUZZLEBLOCK_HPP
 
-#include <GameObject.hpp>
+#include "mge/core/GameObject.hpp"
 #include "mge/behaviours/MeshRenderer.hpp"
 #include "mge/behaviours/RotatingBehaviour.hpp"
 #include "mge/behaviours/ColorFlasher.hpp"

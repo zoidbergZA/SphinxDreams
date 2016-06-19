@@ -23,7 +23,6 @@
 					<Add directory="src" />
 				</Compiler>
 				<Linker>
-					<Add library="glew32s" />
 					<Add library="sfml-graphics-s-d" />
 					<Add library="sfml-window-s-d" />
 					<Add library="sfml-audio-s-d" />
@@ -47,6 +46,22 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="../../2.3-Third-Person/mge/src/mge/FileWatcher/FileWatcher.cpp" />
+		<Unit filename="../../2.3-Third-Person/mge/src/mge/FileWatcher/FileWatcher.h" />
+		<Unit filename="../../2.3-Third-Person/mge/src/mge/FileWatcher/FileWatcherImpl.h" />
+		<Unit filename="../../2.3-Third-Person/mge/src/mge/FileWatcher/FileWatcherLinux.cpp" />
+		<Unit filename="../../2.3-Third-Person/mge/src/mge/FileWatcher/FileWatcherLinux.h" />
+		<Unit filename="../../2.3-Third-Person/mge/src/mge/FileWatcher/FileWatcherOSX.cpp" />
+		<Unit filename="../../2.3-Third-Person/mge/src/mge/FileWatcher/FileWatcherOSX.h" />
+		<Unit filename="../../2.3-Third-Person/mge/src/mge/FileWatcher/FileWatcherWin32.cpp" />
+		<Unit filename="../../2.3-Third-Person/mge/src/mge/FileWatcher/FileWatcherWin32.h" />
+		<Unit filename="../../2.3-Third-Person/mge/src/mge/behaviours/AbstractBehaviour.hpp" />
+		<Unit filename="../../2.3-Third-Person/mge/src/mge/behaviours/Light.cpp" />
+		<Unit filename="../../2.3-Third-Person/mge/src/mge/behaviours/Light.hpp" />
+		<Unit filename="../../2.3-Third-Person/mge/src/mge/behaviours/ParticleSystem.cpp" />
+		<Unit filename="../../2.3-Third-Person/mge/src/mge/behaviours/ParticleSystem.hpp" />
+		<Unit filename="../../2.3-Third-Person/mge/src/mge/sphinx/MainLight.cpp" />
+		<Unit filename="../../2.3-Third-Person/mge/src/mge/sphinx/MainLight.hpp" />
 		<Unit filename="assets/mge/fonts/arial.ttf" />
 		<Unit filename="assets/mge/models/cone_flat.obj" />
 		<Unit filename="assets/mge/models/cone_smooth.obj" />
@@ -91,8 +106,6 @@
 		<Unit filename="src/mge/core/GameObject.hpp" />
 		<Unit filename="src/mge/core/Mesh.cpp" />
 		<Unit filename="src/mge/core/Mesh.hpp" />
-		<Unit filename="src/mge/core/Renderer.cpp" />
-		<Unit filename="src/mge/core/Renderer.hpp" />
 		<Unit filename="src/mge/core/ShaderProgram.cpp" />
 		<Unit filename="src/mge/core/ShaderProgram.hpp" />
 		<Unit filename="src/mge/core/Texture.cpp" />

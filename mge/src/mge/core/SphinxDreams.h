@@ -1,7 +1,7 @@
 #ifndef SPHINXDREAMS_H
 #define SPHINXDREAMS_H
 
-#include <AbstractGame.hpp>
+#include "mge/core/AbstractGame.hpp"
 #include "mge/util/DebugHud.hpp"
 #include "mge/core/FPS.hpp"
 

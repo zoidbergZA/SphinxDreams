@@ -1,9 +1,9 @@
 #ifndef MAINLIGHT_H
 #define MAINLIGHT_H
 
-#include <GameObject.hpp>
+#include "mge/core/GameObject.hpp"
 
-#include "Light.hpp"
+#include "mge/behaviours/Light.hpp"
 
 class MainLight : public GameObject
 {
